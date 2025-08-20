@@ -38,7 +38,7 @@
         <!-- Social Links for Desktop -->
         <div class="hidden md:flex flex-row gap-8 mr-20 mt-5">
             <a
-                href="https://github.com/shrishesha4"
+                href="https://github.com/gopikaramaraj"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-neutral-700 transition hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-neutral-100"
@@ -46,7 +46,7 @@
                 <i class="fa-brands fa-github text-2xl"></i>
             </a>
             <a
-                href="https://linkedin.com/in/shrishesha"
+                href="https://www.linkedin.com/in/saravana-gopika-r-a84926275/"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="text-neutral-700 transition hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-neutral-100"
@@ -54,15 +54,7 @@
                 <i class="fa-brands fa-linkedin text-2xl"></i>
             </a>
             <a
-                href="https://x.com/Shrishesha4"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-neutral-700 transition hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-neutral-100"
-            >
-                <i class="fa-brands fa-x-twitter text-2xl"></i>
-            </a>
-            <a
-                href="mailto:shrisheshanarmatesshvara@gmail.com"
+                href="mailto:gopikaramaraj05@gmail.com"
                 target="_blank"
                 class="text-neutral-700 transition hover:text-neutral-900 dark:text-neutral-300 dark:hover:text-neutral-100"
             >
