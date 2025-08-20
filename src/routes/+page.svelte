@@ -60,9 +60,6 @@
 </script>
 
 <div class="min-h-screen p-4 pt-0">
-    <div class="fixed top-4 right-4 z-50 mr-12 mt-5 hidden md:block">
-        <BuyMeCoffee mode="button" />
-    </div>
     <SocialLinks/>
     <hr class="border-t border-neutral-600 dark:border-neutral-400 m-5 md:hidden" />
     <div class="mx-auto max-w-4xl">
