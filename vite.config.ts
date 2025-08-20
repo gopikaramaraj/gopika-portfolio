@@ -3,6 +3,15 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
     plugins: [sveltekit()],
+    server: {
+        host: true,
+        allowedHosts: [
+            'svelte.shrishesha.online',
+            '.shrishesha.online',
+            'localhost',
+            '127.0.0.1'
+        ]
+    },
     build: {
         target: 'esnext',
         minify: 'esbuild',

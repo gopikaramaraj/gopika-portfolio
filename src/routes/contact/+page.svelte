@@ -77,7 +77,6 @@
     <div class="max-w-4xl mx-auto">
         <div class="flex items-center justify-between mb-6">
             <h1 class="text-4xl font-bold">Contact Me</h1>
-            <BuyMeCoffee mode="button"/>
         </div>
         {#if loading}
             <div class="flex justify-center">

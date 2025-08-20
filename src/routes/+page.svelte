@@ -102,11 +102,6 @@
                     />
                 {/if}
             </section>
-            <section>
-                {#if !githubError && GithubRepos}
-                    <svelte:component this={GithubRepos} on:error={handleGithubError} />
-                {/if}
-            </section>
         {/if}
     </div>
 </div>

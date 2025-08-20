@@ -39,19 +39,6 @@
                     <div class="text-center md:text-left">
                         <h2 class="text-2xl font-semibold text-gray-900 dark:text-neutral-100">{$profile.name}</h2>
                         <p class="text-gray-600 dark:text-neutral-400">{$profile.title}</p>
-                        <div class="shadow-xl rounded-full">
-                            <a 
-                                href="https://cal.com/shrishesha-n"
-                                class="glass-button inline-flex items-center gap-3 px-8 py-3 mt-4 hover:scale-105 rounded-full transition-all duration-200 backdrop-blur-sm"
-                            >
-                                <i class="fas fa-calendar text-m text-black dark:text-white"></i>
-                                <span class="text-m text-black dark:text-white">Schedule a call</span>
-                                <i class="fas fa-arrow-right text-m text-black dark:text-white"></i>
-                            </a>
-                        </div>
-                        <div class="rounded-full mt-5 flex justify-center">
-                            <BuyMeCoffee mode='icon'/>
-                        </div>
                     </div>
                 </div>
 

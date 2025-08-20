@@ -3,14 +3,15 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDYl7I27PHWm8o-1j0JQbiN21GqofATtMk",
-  authDomain: "shrishesha-n.firebaseapp.com",
-  projectId: "shrishesha-n",
-  storageBucket: "shrishesha-n.firebasestorage.app",
-  messagingSenderId: "947201474466",
-  appId: "1:947201474466:web:81e4d49ef5bd00c4047cfb",
-  measurementId: "G-R4WJP4HS1D"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDI0Euqdv0qANrz4KNBIDL-DoxI9FHMggk",
+  authDomain: "gopika1-portfolio.firebaseapp.com",
+  projectId: "gopika1-portfolio",
+  storageBucket: "gopika1-portfolio.firebasestorage.app",
+  messagingSenderId: "218077791747",
+  appId: "1:218077791747:web:72abc979eb804169c4f036",
+  measurementId: "G-4VFBXQ28GR"
 };
+
 
 const app = getApps().length === 0 ? initializeApp(firebaseConfig) : getApps()[0];
 export const db = getFirestore(app);

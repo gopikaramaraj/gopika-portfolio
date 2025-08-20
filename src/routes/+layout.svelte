@@ -16,7 +16,6 @@
     import { injectAnalytics } from '@vercel/analytics/sveltekit';
     import { page } from '$app/stores';
     
-    $: isStargaze = $page.url.pathname.startsWith('/stargaze');
     $: isAdminPage = $page.url.pathname.includes('admin');
     
     interface LayoutData {
@@ -66,19 +65,11 @@
 </script>
 
 <div class="min-h-screen relative">
-    {#if isStargaze}
-        <ParticlesBackground
-            quantity={$profile.particlesQuantity/3}
-            staticity={2000}
-            ease={500}  
-        />
-    {:else}
-        <ParticlesBackground
-            quantity={$profile.particlesQuantity}
-            staticity={20}
-            ease={10}  
-        />
-    {/if}
+    <ParticlesBackground
+        quantity={$profile.particlesQuantity}
+        staticity={20}
+        ease={10}  
+    />
 
     {#if !$page.url.pathname.includes('admin')}
         <Navbar/>
@@ -92,7 +83,7 @@
     <footer class="w-full py-3 px-4 mt-16 border-t border-neutral-200 dark:border-neutral-700 relative z-10">
         <div class="container mx-auto flex justify-center items-center">
             <p class="text-sm text-neutral-600 dark:text-neutral-400">
-                © {new Date().getFullYear()} . Shrishesha
+                © {new Date().getFullYear()} . Saravana Gopika
             </p>
         </div>
     </footer>
